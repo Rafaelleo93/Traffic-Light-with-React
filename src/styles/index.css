@@ -19,22 +19,29 @@
 .green{
     background-color: green;
 }
+.purple{
+    background-color: purple;
+}
 .body{
 
     vertical-align: middle;
 }
 .red.selected{
-    webkit-box-shadow: 0px 0px 50px 20px rgba(255,0,0,0.86);
-    moz-box-shadow: 0px 0px 50px 20px rgba(255,0,0,0.86);
-    box-shadow: 0px 0px 50px 20px rgba(255,0,0,0.86);
+    box-shadow: 0px 0px 40px 20px red;
 }
 .yellow.selected{
-    webkit-box-shadow: 0px 0px 50px 20px rgba(225,255,0,1);
-    moz-box-shadow: 0px 0px 50px 20px rgba(225,255,0,1);
-    box-shadow: 0px 0px 50px 20px rgba(225,255,0,1);
+    box-shadow: 0px 0px 40px 20px yellow;
 }
 .green.selected{
-    webkit-box-shadow: 0px 0px 50px 20px rgba(0,255,0,1);
-    moz-box-shadow: 0px 0px 50px 20px rgba(0,255,0,1);
-    box-shadow: 0px 0px 50px 20px rgba(0,255,0,1);
+    box-shadow: 0px 0px 40px 20px green;
+}
+.purple.selected{
+    box-shadow: 0px 0px 40px 20px purple;
+}
+.cable{
+  background-color: black;
+  width: 20px;
+  height: 80px;
+
+
 }
